@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    
+    background-color: rgb(236, 232, 238);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+}
+h2{
+    color: rgb(21, 197, 197);
+
+}
+
+h1 {    
+    color: rgb(21, 197, 197);
+    text-align: center;
+}
+
+
+section {
+    
+    background-color: #f4f0f5;
+    border: 20px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    /* Agrega transición para suavizar el cambio */
+}
+
+/* Efecto al pasar el ratón */
+section:hover {
+    background-color: #e0e0e0;
+    /* Color de fondo al pasar el ratón */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    /* Sombra más pronunciada */
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.icons {
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+/* Estilo para las secciones en una sola columna */
+.section-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    /* Una sola columna */
+    gap: 20px;
+    /* Espacio entre los elementos */
+    padding: 10px;
+}
+
+/* Asegura que el diseño sea responsivo */
+@media (max-width: 768px) {
+    .section-container {
+        grid-template-columns: 1fr;
+        /* Una columna en pantallas pequeñas */
+    }
+}
+.container {
+    background-image: url(requisitos-programador-2560-1600x593.jpg);
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 80px;
+    background-color: rgba(181, 198, 208, 1);
+    border: 4px solid #0b3bd8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(6, 20, 43, 0.1);
+    -webkit-box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.75);
+}
+h2:hover{
+    color:rgb(50, 80, 216)
+    
+}
+
+h1:hover{
+    color: rgb(50, 80, 216)
+
+}
+.descripcion{
+    color: rgb(2, 53, 53);
+}
+a:visited {
+    color: rgb(156, 28, 28);
+}
+a[href^="mailto:"]:visited {
+    color: green;
+    /* Cambia el color a verde cuando se ha visitado */
+}
